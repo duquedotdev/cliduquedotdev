@@ -1,9 +1,11 @@
 {
-  "name": "server.cli.duque.dev",
+  "name": "duque.dev",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Felipe Duque",
   "license": "MIT",
+  "description": "CLI de desenvolvimento em Node.Js orientada a TDD e CI/CD",
+  "keywords": ["tdd", "node-tdd", "node com tdd", "tdd em node", "tdd"],
   "scripts": {
     "dev": "nodemon src/server.js",
     "debug": "nodemon --inspect src/server.js",
